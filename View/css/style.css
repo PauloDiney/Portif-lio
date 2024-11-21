@@ -12,6 +12,7 @@ body{
     height: auto;
     overflow-x: hidden;
     
+    
 }
 
 .menu-base{
@@ -191,6 +192,7 @@ body{
     position: relative;
     z-index: 0;
     animation: container 1s normal;
+    
 }
 
 @keyframes container{
@@ -208,11 +210,37 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 40px;
+   
+     
+   
 }
 
 .quem-sou-container .quem-sou{
-    width: 70vw;
-    height: auto;
+    width: 98vw;
+    height: 70vh;
+    display: flex;
     background-color: #9b1a0e;
+    border-radius: 10px;
+    color: white;
     
+}
+
+.quem-sou-container .quem-sou .quem-sou-direita{
+    width: 50vw;
+    height: auto;
+   
+
+}
+
+.quem-sou-container .quem-sou .quem-sou-esquerdo{
+    width: 50vw;
+    height: auto;
+  
+    
+}
+.quem-sou-container .quem-sou .quem-sou-esquerdo img{
+    width: 100%;
+    height: 100%;
+      border-radius: 0px 10px 10px 0px;
 }
